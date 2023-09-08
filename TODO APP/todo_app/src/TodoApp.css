@@ -1,0 +1,114 @@
+*, html, body, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Base styles for larger screens */
+.navbar_div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.navbar_div h1 {
+    font-size: 40px;
+    font-weight: bold;
+   color: white;
+}
+
+.input_div {
+    display: flex;
+    justify-content: center;
+   
+    margin-top: 40px;
+    border: 2px double black;
+}
+
+.allTodo_div p {
+    position: relative;
+    font-size: 4vw;
+    color: #252839;
+    -webkit-text-stroke: 0.1vw #383d52;
+    text-transform: uppercase;
+}
+
+.input_div > input {
+    height: 2rem;
+    background-color: rgb(198, 196, 196);
+    color: rgb(32, 32, 32);
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 2rem;
+}
+
+.input_div > button {
+    background-color: grey;
+    border: none;
+    padding: 0rem .5rem 0rem .5rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.allTodo_div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.allTodo_div > div {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.allTodo_div > div > div {
+    margin-right: 1rem;
+}
+
+.allTodo_div > div > div:nth-child(2) > button,
+.allTodo_div > div > div:nth-child(3) > button {
+    background-color: gray;
+    border: none;
+    height: 2rem;
+    border-radius: 5px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 767px) {
+    .navbar_div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar_div h1 {
+        font-size: 30px;
+    }
+
+    .input_div {
+        padding: 20px;
+    }
+
+    .input_div > input {
+        margin-right: 1rem;
+    }
+
+    .allTodo_div p {
+        font-size: 6vw;
+        -webkit-text-stroke: 0.2vw #383d52;
+    }
+}
+
+/* Responsive styles for tablet devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .navbar_div h1 {
+        font-size: 36px;
+    }
+}

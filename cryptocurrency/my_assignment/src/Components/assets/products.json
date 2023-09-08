@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Bitcoin",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF-rVcO7pI-H5dK7pXwM4fjuXGl5S-yeesHQ&usqp=CAU",
+   
+    "price": 40000
+  },
+  {
+    "id": 2,
+    "name": "Ethereum",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvz3mo0qqzUBBaGG_qcTFS6DzPQZGv1uza2w&usqp=CAU",
+    "price": 2800
+  },
+  {
+    "id": 3,
+    "name": "Litecoin",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvMS608KmgB4Vw2pEpjW8Zmq0JOz5-Rjc1PA&usqp=CAU",
+    
+    "price": 150
+  }
+  
+]

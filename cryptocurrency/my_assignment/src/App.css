@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.example{
+  border: 1px solid black;
+  width: 150px;
+  height: 100px;
+  margin: auto;
+}
+@media (max-width : 375px) {
+  
+
+  .example{
+    
+    border: 1px solid green;
+  }
+}
+
+
+
+
